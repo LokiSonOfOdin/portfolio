@@ -371,9 +371,53 @@ html,body {
 }
 
 .portfolio {
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
-.porfolio_body {
+
+.swiper {
+    max-width: 400px;
+    max-height: 540px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .swiper-button-next, siper-rtl .swiper-button-prev {
+    right: 140px;
+    left: auto;
+  }
+
+  .swiper-button-prev, siper-rtl .swiper-button-next {
+    left: 140px;
+    right: auto;
+  }
+
+.portfolio_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
+
+.portfolio_content p {
+    padding-top: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
 
 }
