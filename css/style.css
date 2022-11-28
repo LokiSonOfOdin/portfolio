@@ -7,6 +7,8 @@
 
 html,body {
     height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;      
 }
 
 .title {
@@ -69,7 +71,6 @@ html,body {
 .container {
     max-width: 1110px;
     margin: 0 auto;
-    min-width: 300px;
 }
 
 .header {
@@ -419,5 +420,20 @@ html,body {
     font-size: 14px;
     line-height: 17px;
     text-align: center;
+
+}
+
+.block_cardss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 5px;
+}
+
+.block_another_cardss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 5px;
 
 }
